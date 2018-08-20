@@ -7,17 +7,7 @@
 </head>
 <body>
 
-
-    <header>
-      <nav>
-        <span class="movetext">Company Name</span>
-        <img class="" src="https://www.matchbook.com/assets/images/icons/white/Twitter_logo_white.png">
-        <a href="#portion1" class="active">Portion1</a>
-        <a href="#portion2">Portion2</a>
-        <a href="#portion3">Portion3</a>
-        <a href="#portion4">Portion4</a>
-      </nav>
-    </header>
+    @include('header.header')
 
     <div class="portion">
       <h2>Portion 1.</h2>
@@ -66,12 +56,8 @@
         <a href="#">Example Button</a>
       </div>
     </div>
-    <footer class="info">
-      <div id="toTop"><a href="#"><img src="http://www.superdruglookatme.com/wp-content/themes/superdrug/images/top.png"></a></div>
-      <p>&copy; 2014 Arif Hussain Bangash</p>
-      
-    </footer>
-
+    
+    @include('footer.footer')
 
 </body>
 </html>

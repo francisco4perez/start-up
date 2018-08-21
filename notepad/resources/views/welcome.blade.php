@@ -3,6 +3,8 @@
 <head>
     <title>Hola!!</title>
     <link rel="stylesheet" type="text/css" href="{{ asset('css/mystyles.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/flexboxgrid.css') }}">
+    <script type="text/javascript" src=" {{ asset('js/jquery-3.3.1.js') }} "></script>
     <script type="text/javascript" src=" {{ asset('js/myscripts.js') }} "></script>
 </head>
 <body>
@@ -10,7 +12,7 @@
     @include('header.header')
 
     <div class="portion">
-      <h2>Portion 1.</h2>
+        <h2>Sistema de alertas para tu agua</h2>
     </div>
 
     <div id="portion1" class="info">

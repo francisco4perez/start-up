@@ -7,8 +7,8 @@ body {
 
 header nav {
   text-align: right;
-  background: rgba(0,0,0,0.6);
-  color: white;
+  background: rgba(255,255,255,0);
+  color: rgba(0,164,231,255);
   font-size: 1em;
   position: fixed;
   width: 100%;
@@ -33,7 +33,7 @@ header nav a:hover {
 
 .portion {
   
-  background-image:  url('http://p1.pichost.me/640/60/1842352.jpg');
+  background-image:  url('../image/water_drop.jpg');
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
@@ -46,10 +46,10 @@ header nav a:hover {
   color: white;
   font-weight: normal;
   font-size: 3em;
-  padding: 2em 0;
+  padding: 4.5em 0;
   margin: 0;
   text-shadow: 0 0 10px black;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.4);
 }
 
 .info {
@@ -114,4 +114,13 @@ nav span {
 
 .movetext {
   top: -30px;
+}
+
+
+/* MY EDITS ---------------------- */
+
+.logo{
+  width: 200px;
+  height: 55px;
+  border-color: black;
 }

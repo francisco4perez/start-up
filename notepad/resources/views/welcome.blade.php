@@ -16,15 +16,38 @@
     </div>
 
     <div id="portion1" class="info">
-      <h3>Explicacion extremadamente hermosa</h3>
+      <h3>Aqualert, el siste de alertas inteligentes</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nobis ut dicta quisquam officia deleniti, amet. Obcaecati atque, cumque quae culpa ad hic commodi provident pariatur, iure nobis voluptatibus laborum amet temporibus quia, dolores veritatis, repellendus consectetur. Ut ullam officiis minus quod assumenda facere quaerat, esse, magni, aliquid culpa vero.</p>
       <div class="button">
         <a href="#">Example Button</a>
       </div>
     </div>
 
+    <div class="my-container">
+        <div class="row">
+          <div class="col-md">
+              <div class="box">
+                <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
+              </div>
+          </div>
+
+          <div class="col-md">
+              <div class="box">
+                <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
+              </div>
+          </div>
+
+          <div class="col-md">
+              <div class="box">
+                <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
+              </div>
+          </div>
+      </div>
+    </div>
+    
+
     <div class="portion two">
-      <h2>OneCrowd</h2>
+      <h2>Nosotros</h2>
     </div>
 
     <div id="portion2" class="info">

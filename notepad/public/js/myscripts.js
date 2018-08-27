@@ -45,3 +45,27 @@ $(document).scroll(function () {
     }
   
 });
+
+// My edits --------------
+
+$( document ).ready(function() {
+  var cliked_menu = false;
+
+  $('.menu').click(function () {
+    if(!cliked_menu){
+      $("#hamburger-input").prop("checked", true);
+      $("label ul").css("opacity",0);
+      $("label ul").css("display","block");
+      setTimeout( function(){ $("label ul").css("opacity",1); }, 300);
+      cliked_menu = true;
+    }
+    else if(cliked_menu){
+      $("#hamburger-input").prop("checked", false);
+      $("label ul").css("display","none");
+      cliked_menu = false;
+    }
+  });
+
+
+
+});

@@ -48,11 +48,11 @@
     
 
     <div class="portion two">
-      <h2>Nosotros</h2>
+      <h2>Aqualert</h2>
     </div>
 
     <div id="portion2" class="info">
-      <h3>Equipo OneCrowd</h3>
+      <h3>Aqualert</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora pariatur voluptate laboriosam impedit praesentium sed, nihil, dignissimos et minima recusandae quaerat enim consectetur. Molestiae assumenda distinctio, rem nostrum dolores repellendus.</p>
       <div class="button">
         <a href="#">Example Button</a>
@@ -72,11 +72,23 @@
     </div>
 
     <div class="portion two">
-      <h2>Contacto</h2>
+      <h2>Visítenos</h2>
     </div>
 
     <div id="portion4" class="info">
-      <h3>Contacto</h3>
+      <h3>Visítenos</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni incidunt quos iste voluptates, tenetur ad repudiandae ea fuga eveniet quam, unde iure suscipit rem odit in, sint nulla itaque? Labore beatae, est voluptatibus saepe rerum illum repudiandae quasi perspiciatis, molestiae quidem fugiat voluptates voluptate neque totam earum enim mollitia iure quod tempora veritatis quam optio. Error odit laudantium eum voluptate.</p>
+      <div class="button">
+        <a href="#">Example Button</a>
+      </div>
+    </div>
+
+    <div class="portion two">
+      <h2>Contáctanos</h2>
+    </div>
+
+    <div id="portion5" class="info">
+      <h3>Contáctanos</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni incidunt quos iste voluptates, tenetur ad repudiandae ea fuga eveniet quam, unde iure suscipit rem odit in, sint nulla itaque? Labore beatae, est voluptatibus saepe rerum illum repudiandae quasi perspiciatis, molestiae quidem fugiat voluptates voluptate neque totam earum enim mollitia iure quod tempora veritatis quam optio. Error odit laudantium eum voluptate.</p>
       <div class="button">
         <a href="#">Example Button</a>

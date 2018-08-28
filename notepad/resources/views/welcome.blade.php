@@ -6,9 +6,10 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/mystyles.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/flexboxgrid.css') }}">
     <script type="text/javascript" src=" {{ asset('js/jquery-3.3.1.js') }} "></script>
+    <script type="text/javascript" src=" {{ asset('js/jquery-ui.min.js') }} "></script>
     <script type="text/javascript" src=" {{ asset('js/myscripts.js') }} "></script>
 </head>
-<body>
+<body id="top">
 
     @include('header.header')
 
@@ -20,7 +21,7 @@
       <h3>Aqualert, el siste de alertas inteligentes</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nobis ut dicta quisquam officia deleniti, amet. Obcaecati atque, cumque quae culpa ad hic commodi provident pariatur, iure nobis voluptatibus laborum amet temporibus quia, dolores veritatis, repellendus consectetur. Ut ullam officiis minus quod assumenda facere quaerat, esse, magni, aliquid culpa vero.</p>
       <div class="button">
-        <a href="#">Example Button</a>
+        <a href="#portion2">Example Button</a>
       </div>
     </div>
 
@@ -47,7 +48,7 @@
     </div>
     
 
-    <div class="portion two">
+    <div class="my-section">
       <h2>Aqualert</h2>
     </div>
 
@@ -55,7 +56,7 @@
       <h3>Aqualert</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora pariatur voluptate laboriosam impedit praesentium sed, nihil, dignissimos et minima recusandae quaerat enim consectetur. Molestiae assumenda distinctio, rem nostrum dolores repellendus.</p>
       <div class="button">
-        <a href="#">Example Button</a>
+        <a href="#portion3">Example Button</a>
       </div>
     </div>
 
@@ -127,7 +128,7 @@
       </div>
 
       <div class="button">
-        <a href="#">Example Button</a>
+        <a href="#portion4">Example Button</a>
       </div>
     </div>
 
@@ -141,7 +142,7 @@
       <h3>Visítenos</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni incidunt quos iste voluptates, tenetur ad repudiandae ea fuga eveniet quam, unde iure suscipit rem odit in, sint nulla itaque? Labore beatae, est voluptatibus saepe rerum illum repudiandae quasi perspiciatis, molestiae quidem fugiat voluptates voluptate neque totam earum enim mollitia iure quod tempora veritatis quam optio. Error odit laudantium eum voluptate.</p>
       <div class="button">
-        <a href="#">Example Button</a>
+        <a href="#portion5">Example Button</a>
       </div>
     </div>
 
@@ -153,7 +154,7 @@
       <h3>Contáctanos</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni incidunt quos iste voluptates, tenetur ad repudiandae ea fuga eveniet quam, unde iure suscipit rem odit in, sint nulla itaque? Labore beatae, est voluptatibus saepe rerum illum repudiandae quasi perspiciatis, molestiae quidem fugiat voluptates voluptate neque totam earum enim mollitia iure quod tempora veritatis quam optio. Error odit laudantium eum voluptate.</p>
       <div class="button">
-        <a href="#">Example Button</a>
+        <a href="#top">Volver al inicio</a>
       </div>
     </div>
     

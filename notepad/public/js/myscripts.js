@@ -1,20 +1,3 @@
-// Smooth Scroll on clicking nav items
-$('nav a').click(function () {
-  var $href = $(this).attr('href');
-  $('body').stop().animate({
-    scrollTop: $($href).offset().top
-  }, 1000);
-  return false;
-});
-
-// back to top
-$('#toTop a').click(function () {
-  $('body').animate({
-    scrollTop: 0
-  }, 1000);
-  return false;
-});
-
 // Parallaxing + add class active on scroll
 $(document).scroll(function () {
   
@@ -77,6 +60,23 @@ $( document ).ready(function() {
   var x = window.matchMedia("(min-width: 1000px)");
   screenLessThan(x);
   x.addListener(screenLessThan);
+
+  // My scrolling ----------------------------------
+
+  $('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && 
+        location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+        }
+      }
+    });
+  // -----------------------------------------------
 
 
 

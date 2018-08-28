@@ -51,6 +51,10 @@ $(document).scroll(function () {
 $( document ).ready(function() {
   var cliked_menu = false;
 
+  function screenLessThan(x) {
+      if (x.matches && cliked_menu == true) { $(".menu").click(); }
+  }
+
   $('.menu').click(function () {
     if(!cliked_menu){
       $("#hamburger-input").prop("checked", true);
@@ -65,6 +69,14 @@ $( document ).ready(function() {
       cliked_menu = false;
     }
   });
+
+  $("ul > li > a").click(function(){
+    $(".menu").click();
+  });
+
+  var x = window.matchMedia("(min-width: 1000px)");
+  screenLessThan(x);
+  x.addListener(screenLessThan);
 
 
 

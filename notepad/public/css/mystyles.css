@@ -21,6 +21,7 @@ header nav {
   font-size: 1em;
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
 header nav a {
   color: inherit;
@@ -52,7 +53,6 @@ header nav a:hover {
 }
 
 .portion {
-  
   background-image:  url('../image/water_drop.jpg');
   background-position: center center;
   background-attachment: fixed;
@@ -61,7 +61,8 @@ header nav a:hover {
   height: -webkit-fill-available;
 }
 .portion.two {
-  background-image: url('http://cdn.desktopwallpapers4.me/media/thumbs_400x250/4/31677.jpg');
+  background-image: url('../image/smart-phone.jpg');
+  background-position: unset unset;
 }
 .portion h2 {
   color: white;
@@ -77,8 +78,14 @@ header nav a:hover {
 .info {
   background: white;
   color: #777;
-  padding: 3em 20%;
+  padding: 3em 10%;
   text-align: center;
+}
+.wide-info{
+  background: white;
+  color: #777;
+  text-align: center;
+  padding-bottom: 2%;
 }
 
 .button {
@@ -248,7 +255,6 @@ label a {
     height: 100%;
 }
 .my-container{
-  padding: 3em 20%;
   display: flex;
   justify-content: center;
 }
@@ -256,9 +262,17 @@ label a {
   max-width: 128px;
   max-height: 128px;
 }
+.team-icon{
+  max-width: 128px;
+  max-height: 128px;
+  padding: 0px 100px;
+  padding-top: 10px;
+}
 
-/* MY SMALL NAV -----------------------*/
-
-.hide{
-  display: none;
+#ez-map{
+  min-height:150px;
+  min-width:150px;
+  height: 420px;
+  width: 100%;
+  z-index: 0;
 }

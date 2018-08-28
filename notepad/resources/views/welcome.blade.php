@@ -16,7 +16,7 @@
         <h2>Sistema de alertas para tu agua</h2>
     </div>
 
-    <div id="portion1" class="info">
+    <div id="portion1" class="wide-info">
       <h3>Aqualert, el siste de alertas inteligentes</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nobis ut dicta quisquam officia deleniti, amet. Obcaecati atque, cumque quae culpa ad hic commodi provident pariatur, iure nobis voluptatibus laborum amet temporibus quia, dolores veritatis, repellendus consectetur. Ut ullam officiis minus quod assumenda facere quaerat, esse, magni, aliquid culpa vero.</p>
       <div class="button">
@@ -63,9 +63,69 @@
       <h2>Nosotros</h2>
     </div>
 
-    <div id="portion3" class="info">
+    <div id="portion3" class="wide-info">
       <h3>Nosotros</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus in vitae saepe harum soluta reiciendis eaque repellat distinctio quos voluptate nemo error ratione numquam, nisi quibusdam veritatis repudiandae ea possimus rerum pariatur dolores? Optio inventore iusto, voluptatibus numquam aperiam, harum maxime beatae minima aliquam quas sapiente totam cumque unde..</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus in vitae saepe harum soluta reiciendis eaque repellat distinctio quos voluptate nemo error ratione numquam, nisi </p>
+      
+      <div class="my-container">
+        <div class="row center">
+
+          <div class="col">
+              <div class="box">
+                <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                <h4>Nombre</h4>
+                <h5>Web Developer</h5>
+                <p>Linkedin</p>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="box">
+                <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                <h4>Nombre</h4>
+                <h5>Web Developer</h5>
+                <p>Linkedin</p>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="box">
+                <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                <h4>Nombre</h4>
+                <h5>Web Developer</h5>
+                <p>Linkedin</p>
+              </div>
+          </div>
+
+        </div>
+
+        
+      </div>
+
+      <div class="my-container">
+        <div class="row">
+          
+          <div class="col">
+              <div class="box">
+                <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                <h4>Nombre</h4>
+                <h5>Web Developer</h5>
+                <p>Linkedin</p>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="box">
+                <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                <h4>Nombre</h4>
+                <h5>Web Developer</h5>
+                <p>Linkedin</p>
+              </div>
+          </div>
+
+        </div>
+      </div>
+
       <div class="button">
         <a href="#">Example Button</a>
       </div>
@@ -74,6 +134,8 @@
     <div class="portion two">
       <h2>Visítenos</h2>
     </div>
+
+    @include('google-map')
 
     <div id="portion4" class="info">
       <h3>Visítenos</h3>

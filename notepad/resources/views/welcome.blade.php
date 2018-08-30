@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/mystyles.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/flexboxgrid.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/magnific-popup.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    
     <script type="text/javascript" src=" {{ asset('js/jquery-3.3.1.js') }} "></script>
-    <script type="text/javascript" src=" {{ asset('js/jquery-ui.min.js') }} "></script>
+    <script type="text/javascript" src=" {{ asset('js/magnific-popup.min.js') }} "></script>
     <script type="text/javascript" src=" {{ asset('js/myscripts.js') }} "></script>
 </head>
 <body id="top">
@@ -14,15 +17,33 @@
     @include('header.header')
 
     <div class="portion">
-        <h2>Sistema de alertas para tu agua</h2>
+      <div class="filter">
+        <div id="title">
+          <h2>Sistema de alertas para tu agua</h2>
+
+          <div id="div-btn" class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+            <div class="fancy-btn">
+              <a>Ver&nbsp;Video&nbsp;<span class="shift">›</span></a>
+              <div class="mask"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
+
 
     <div id="portion1" class="wide-info">
       <h3>Aqualert, el siste de alertas inteligentes</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nobis ut dicta quisquam officia deleniti, amet. Obcaecati atque, cumque quae culpa ad hic commodi provident pariatur, iure nobis voluptatibus laborum amet temporibus quia, dolores veritatis, repellendus consectetur. Ut ullam officiis minus quod assumenda facere quaerat, esse, magni, aliquid culpa vero.</p>
-      <div class="button">
-        <a href="#portion2">Example Button</a>
+      
+      <div id="div-btn">
+        <div class="fancy-btn grey">
+          <a href="#portion2">Seguir&nbsp;Bajando&nbsp;<span class="shift">›</span></a>
+          <div class="mask"></div>
+        </div>
       </div>
+
     </div>
 
     <div class="my-container">
@@ -60,7 +81,7 @@
       </div>
     </div>
 
-    <div class="portion">
+    <div class="my-section">
       <h2>Nosotros</h2>
     </div>
 
@@ -132,11 +153,9 @@
       </div>
     </div>
 
-    <div class="portion two">
+    <div class="my-section">
       <h2>Visítenos</h2>
     </div>
-
-    @include('google-map')
 
     <div id="portion4" class="info">
       <h3>Visítenos</h3>
@@ -146,7 +165,9 @@
       </div>
     </div>
 
-    <div class="portion two">
+    @include('google-map')
+
+    <div class="my-section">
       <h2>Contáctanos</h2>
     </div>
 

@@ -76,7 +76,23 @@ $( document ).ready(function() {
         }
       }
     });
-  // -----------------------------------------------
+  // My title button -------------------------------
+  const body = document.body;
+  const btn = document.querySelectorAll('.fancy-btn')[0];
+
+  btn.addEventListener('mouseenter', () => { body.classList.add('show'); });
+  btn.addEventListener('mouseleave', () => { body.classList.remove('show');
+  });
+
+  // My video presentation -------------------------
+
+  $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: true
+  });
 
 
 

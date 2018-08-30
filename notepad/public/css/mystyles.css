@@ -67,9 +67,20 @@ header nav a:hover {
 .portion h2 {
   color: white;
   font-weight: normal;
-  font-size: 3em;
-  padding: 4.5em 0;
+  font-size: 8vw;
+  /*padding: 4.5em 0;*/
   margin: 0;
+  /*text-shadow: 0 0 10px black;
+  background: rgba(0,0,0,0.4);
+  height: -webkit-fill-available;*/
+}
+@media screen and (min-width: 600px) {
+  .portion h2 {
+    font-size: 3em;
+  }
+}
+.filter{
+  padding: 4.5em 0;
   text-shadow: 0 0 10px black;
   background: rgba(0,0,0,0.4);
   height: -webkit-fill-available;
@@ -175,7 +186,7 @@ label .menu {
   z-index: 100;
   width: 200px;
   height: 200px;
-  background: #FFF;
+  background: rgb(0,164,231);
   border-radius: 50% 50% 50% 50%;
   transition: .5s ease-in-out;
   box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
@@ -220,7 +231,7 @@ label input {
   display: none;
 }
 label input:checked + .menu {
-  box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
+  box-shadow: 0 0 0 100vw rgb(0,164,231), 0 0 0 100vh rgb(0,164,231);
   border-radius: 0;
 }
 label input:checked + .menu .hamburger {
@@ -289,6 +300,7 @@ label a {
   padding-top: 10px;
 }
 
+/*Google Map ------------------*/
 #ez-map{
   min-height:150px;
   min-width:150px;
@@ -296,3 +308,113 @@ label a {
   width: 100%;
   z-index: 0;
 }
+
+/* Title --------------------------------------------------------------*/
+
+#title{
+  margin: 14% 0%;
+}
+
+#div-btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 2%;
+  transition: background-color 2s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.fancy-btn {
+  border: 2px solid white;
+  cursor: pointer;
+  letter-spacing: 0.2125rem;
+  overflow: hidden;
+  padding: 20px 30px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 
+    background 5s cubic-bezier(0.19, 1, 0.22, 1),
+    border 1s cubic-bezier(0.19, 1, 0.22, 1),
+    color 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  user-select: none;
+}
+.fancy-btn.grey{
+  border: 2px solid #777;
+}
+.fancy-btn a {
+  color: white;
+  font-family: "Varela Round";
+  text-decoration: none;
+}
+.fancy-btn.grey a{
+  color: #777;
+}
+.fancy-btn .mask {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100px;
+  position: absolute;
+  transform: translate3d(-120%, -50px, 0) rotate3d(0, 0, 1, 45deg);
+  transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1);
+  width: 200px;
+}
+.fancy-btn.grey .mask{
+  background-color: #777;
+  background-color: rgba(119, 119, 119, 0.5);
+  height: 100px;
+  position: absolute;
+  transform: translate3d(-120%, -50px, 0) rotate3d(0, 0, 1, 45deg);
+  transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1);
+  width: 200px;
+}
+
+.fancy-btn .shift {
+  display: inline-block;
+  transition: all 1.1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.fancy-btn:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: #fff;
+  box-shadow: 0 0 5px rgba(255, 245, 245, 0.8);
+  transition: background 0s;
+}
+.fancy-btn.grey:hover{
+  background-color: rgba(119, 119, 119, 0.05);
+  border-color: #777;
+}
+.fancy-btn:hover a {
+  color: #fff;
+}
+.fancy-btn.grey:hover a {
+  color: #777;
+}
+.fancy-btn:hover .mask {
+  background-color: #fff;
+  transform: translate3d(120%, -100px, 0) rotate3d(0, 0, 1, 90deg);
+}
+.fancy-btn.grey:hover .mask {
+  background-color: #777;
+  transform: translate3d(120%, -100px, 0) rotate3d(0, 0, 1, 90deg);
+}
+.fancy-btn:hover .shift {
+  transform: translateX(5px);
+}
+.fancy-btn:active {
+  background-color: #fff;
+}
+.fancy-btn.grey:active {
+  background-color: #777;
+}
+.fancy-btn:active a {
+  color: #202020;
+}
+.fancy-btn.grey:active a {
+  color: white;
+}
+
+/* Pop-up video ----------------------- */
+
+

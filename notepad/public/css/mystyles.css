@@ -305,6 +305,161 @@ label a {
   padding: 2%;
   min-width: 210px;
 }
+.sponsor{
+  padding: 2% 10%;
+}
+.sponsor.usm-icon{
+  max-width: 300px;
+  max-height: 256px;
+}
+@media screen and (max-width: 1200px) and (min-width: 950px) {
+  .sponsor.usm-icon {
+    max-width: 256px;
+    max-height: 250px;
+  }
+}
+@media screen and (max-width: 950px) and (min-width: 768px) {
+  .sponsor.usm-icon {
+    max-width: 200px;
+    max-height: 240px;
+  }
+}
+.sponsor.fesw-icon{
+  max-width: 256px;
+  max-height: 256px;
+}
+@media screen and (max-width: 1200px) and (min-width: 950px) {
+  .sponsor.fesw-icon {
+    max-width: 220px;
+    max-height: 250px;
+  }
+}
+@media screen and (max-width: 950px) and (min-width: 768px) {
+  .sponsor.fesw-icon {
+    max-width: 170px;
+    max-height: 240px;
+  }
+}
+.sponsor.di-icon{
+  max-width: 310px;
+  max-height: 256px;
+}
+@media screen and (max-width: 1200px) and (min-width: 950px) {
+  .sponsor.di-icon {
+    max-width: 256px;
+  }
+}
+@media screen and (max-width: 950px) and (min-width: 768px) {
+  .sponsor.di-icon {
+    max-width: 200px;
+  }
+}
+.sponsor.piea-icon{
+  max-width: 256px;
+  max-height: 256px;
+}
+@media screen and (max-width: 1200px) and (min-width: 950px) {
+  .sponsor.piea-icon {
+    max-width: 200px;
+    max-height: 250px;
+  }
+}
+@media screen and (max-width: 950px) and (min-width: 768px) {
+  .sponsor.piea-icon {
+    max-width: 150px;
+    max-height: 240px;
+  }
+}
+.sponsor.one-crowd{
+  max-width: 130px;
+  max-height: 256px;
+}
+@media screen and (max-width: 1200px) and (min-width: 950px) {
+  .sponsor.one-crowd {
+    max-width: 100px;
+  }
+}
+@media screen and (max-width: 950px) and (min-width: 768px) {
+  .sponsor.one-crowd {
+    max-width: 80px;
+  }
+}
+.no-margin{
+  margin: 0;
+}
+
+/*
+
+.usm-icon{
+  max-width: 300px;
+  max-height: 250px;
+  min-width: 200px;
+}
+.fesw-icon{
+  max-width: 256px;
+  max-height: 256px;
+  min-width: 200px;
+}
+.di-icon{
+  max-width: 310px;
+  max-height: 256px;
+  min-width: 200px;
+}
+.piea-icon{
+  max-width: 256px;
+  max-height: 256px;
+  min-width: 200px;
+}
+
+
+-----------
+.sponsor{
+  padding: 2% 10%;
+}
+.sponsor.usm-icon{
+  max-width: 20vw;
+  max-height: 250px;
+  min-width: 303px;
+}
+.sponsor.fesw-icon{
+  max-width: 19vw;
+  max-height: 256px;
+  min-width: 258px;
+}
+.sponsor.di-icon{
+  max-width: 24vw;
+  max-height: 256px;
+  min-width: 270px;
+}
+.sponsor.piea-icon{
+  max-width: 256px;
+  max-height: 256px;
+  min-width: 273px;
+}
+.sponsor.one-crowd{
+  max-width: 100px;
+  max-height: 256px;
+  min-width: 100px;
+}
+
+------------------------
+.usm-icon{
+  max-width: 300px;
+  max-height: 250px;
+}
+.fesw-icon{
+  max-width: 19vw;
+  max-height: 256px;
+}
+.di-icon{
+  max-width: 24vw;
+  max-height: 256px;
+}
+.piea-icon{
+  max-width: 300px;
+  max-height: 256px;
+}
+*/
 
 /*Google Map ------------------*/
 #ez-map{

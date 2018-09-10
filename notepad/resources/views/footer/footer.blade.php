@@ -1,4 +1,4 @@
-<footer class="info">
+<footer class="info wide-info">
 	<div class="my-container">
         <div class="row center">
 
@@ -36,10 +36,10 @@
 
           <div class="col-xs-12 col-sm-6 col-md-6">
               <div class="box">
-              	<a id="#top">
+              	<div>
               		<img class="sponsor one-crowd" src="{{ asset('image/onecrowd.svg ') }}">
 	  				<p class="no-margin">&copy; 2018 OneCrowd Team</p>
-	  			</a>
+	  			</div>
               </div>
           </div>
 

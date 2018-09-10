@@ -22,8 +22,8 @@
         <div id="title">
           <h2>Sistema de alertas para tu agua</h2>
 
-          <div id="div-btn" class="popup-youtube" href="https://www.youtube.com/watch?v=Rzv5a8viDAw">
-            <div class="fancy-btn">
+          <div id="div-btn">
+            <div class="popup-youtube fancy-btn" href="https://www.youtube.com/watch?v=Rzv5a8viDAw">
               <a>Ver&nbsp;Video&nbsp;<span class="shift">›</span></a>
               <div class="mask"></div>
             </div>
@@ -34,49 +34,75 @@
     </div>
 
 
-    <div id="portion1" class="wide-info">
-      <h3>Aqualert, el siste de alertas inteligentes</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis nobis ut dicta quisquam officia deleniti, amet. Obcaecati atque, cumque quae culpa ad hic commodi provident pariatur, iure nobis voluptatibus laborum amet temporibus quia, dolores veritatis, repellendus consectetur. Ut ullam officiis minus quod assumenda facere quaerat, esse, magni, aliquid culpa vero.</p>
-      
-      <div class="button">
-         <a href="#portion2">Seguir bajando <img class="expand-icon" src="{{ asset('icon/expand-button-down.png ') }}"></a>
-      </div>
+    <div id="portion1" class="info">
+      <h3>Un Sistema de medición de la calidad del agua y alertas</h3>
+      <p>Aqualert es una aplicación móvil que busca prevenir enfermedades asociadas al material inorgánico en el agua mediante un dispositivo electrónico que busca prevenir riesgos que impliquen consumir o usar agua de alguna fuente, sobre todo en casos de emergencia, cuando ocurre un acontecimiento natural que implique contaminación del líquido.</p>
 
     </div>
 
-    <div class="my-container">
-        <div class="row">
-          <div class="col-md">
-              <div class="box">
-                <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
-              </div>
-          </div>
-
-          <div class="col-md">
-              <div class="box">
-                <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
-              </div>
-          </div>
-
-          <div class="col-md">
-              <div class="box">
-                <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
-              </div>
-          </div>
-      </div>
+    <div class="button fix-bottom-padding">
+      <a href="#portion2">Seguir bajando ⇩</a>
     </div>
+
+    
     
 
     <div class="my-section">
       <h2>Aqualert</h2>
     </div>
 
-    <div id="portion2" class="info">
-      <h3>Aqualert</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora pariatur voluptate laboriosam impedit praesentium sed, nihil, dignissimos et minima recusandae quaerat enim consectetur. Molestiae assumenda distinctio, rem nostrum dolores repellendus.</p>
+    <div id="portion2" class="info wide-info">
+      <h3>¿Cómo funciona?</h3>
+      <p>Para poder realizar las mediciones se utiliza el dispositivo Aqualert, que consta de cuatro sensores diferentes, que indican el estado del agua en pocos minutos y que en conjunto con la aplicación móvil permiten localizar puntos de alerta.</p>
+
+      <h4>Fácil de usar</h4>
+      
+      
+
+      <div class="my-container">
+        <div class="row center">
+
+          <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="box">
+                <div class="explication">
+                  <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
+                  <h5>Conectar Dispositivo</h5>
+                  <p>Sincroniza el dispositivo con tu     celular de manera muy sencilla, solamente usando      Bluetooth(R).</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="box">
+                <div class="explication">
+                  <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
+                  <h5>Realiza una medición</h5>
+                  <p>La aplicación te guiará paso a       paso para que puedas tomar una medición sin ningún      problema.</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="box">
+                <div class="explication">
+                  <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
+                  <h5>Publicar</h5>
+                  <p>En tan solo unos segundos tu medición puede      aparecer en el mapa para informar a la comunidad.</p>
+                </div>
+              </div>
+          </div>
+
+        </div>
+        
+      </div>
+
+
+      <h4>Red social</h4>
+      <p>No solo podrás publicar tus mediciones, sino que     ademas podrás revisar y puntuar las de otros usuarios e   interactuar con     ellos a través de la aplicación.</p>
+
       
       <div class="button">
-         <a href="#portion3">Seguir bajando <img class="expand-icon" src="{{ asset('icon/expand-button-down.png ') }}"></a>
+         <a href="#portion3">Seguir bajando ⇩</a>
       </div>
 
     </div>
@@ -85,9 +111,16 @@
       <h2>Nosotros</h2>
     </div>
 
-    <div id="portion3" class="wide-info">
-      <h3>Nosotros</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio accusamus in vitae saepe harum soluta reiciendis eaque repellat distinctio quos voluptate nemo error ratione numquam, nisi </p>
+    <div id="portion3" class="info wide-info">
+
+      <img class="one-crowd" src="{{ asset('image/onecrowd.svg ') }}">
+
+      <p>OneCrowd es una pre-empresa compuesta por cinco estudiantes de Ingeniería civil en Informática de la Universidad Técnica Federico Santa María.</p>
+
+      <p>Como equipo nos enfocamos en desarrollos basados en sensores, aplicaciones móviles y web, velando por mantener el estándar de calidad que nos caracteriza.</p>
+
+      <p>A través de Aqualert, en OneCrowd nos proponemos a ayudar a prevenir enfermedades de la ingesta de agua en malas condiciones y dar aviso oportuno a la comunidad en caso de alertas que conlleven un riesgo para la salud.</p>
+
       
       <div class="my-container">
         <div class="row center">
@@ -97,7 +130,7 @@
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Alfredo Silva</h4>
-                  <h5>Web Developer</h5>
+                  <h6 class="jobs">Android Developer & Arduino QA</h6>
                   <p>Linkedin</p>
                 </div>
               </div>
@@ -108,7 +141,7 @@
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Francisco Pérez</h4>
-                  <h5>Web Developer</h5>
+                  <h6 class="jobs">Web & Front-End Developer </h6>
                   <p>Linkedin</p>
                 </div>
               </div>
@@ -119,7 +152,7 @@
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Francisco Alvial</h4>
-                  <h5>Web Developer</h5>
+                  <h6 class="jobs">Project & Marketing Manager</h6>
                   <p>Linkedin</p>
                 </div>
               </div>
@@ -138,7 +171,7 @@
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Juan Escalona</h4>
-                  <h5>Web Developer</h5>
+                  <h6 class="jobs">Dev. Ops & Android QA</h6>
                   <p>Linkedin</p>
                 </div>
               </div>
@@ -149,7 +182,7 @@
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Sebastián Torrico</h4>
-                  <h5>Web Developer</h5>
+                  <h6 class="jobs">Arduino & Android Developer</h6>
                   <p>Linkedin</p>
                 </div>
               </div>
@@ -160,7 +193,7 @@
       </div>
 
       <div class="button">
-         <a href="#portion4">Seguir bajando <img class="expand-icon" src="{{ asset('icon/expand-button-down.png ') }}"></a>
+         <a href="#portion4">Seguir bajando ⇩</a>
       </div>
 
     </div>
@@ -171,13 +204,15 @@
 
     <div id="portion4" class="info">
       <h3>Visítenos</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni incidunt quos iste voluptates, tenetur ad repudiandae ea fuga eveniet quam, unde iure suscipit rem odit in, sint nulla itaque? Labore beatae, est voluptatibus saepe rerum illum repudiandae quasi perspiciatis, molestiae quidem fugiat voluptates voluptate neque totam earum enim mollitia iure quod tempora veritatis quam optio. Error odit laudantium eum voluptate.</p>
-      
-      <div class="button">
-         <a href="#portion5">Seguir bajando <img class="expand-icon" src="{{ asset('icon/expand-button-down.png ') }}"></a>
-      </div>
+      <p>Visítanos en la feria del software de la Universidad Técnica Federico Santa María
+      En Campus Santiago, San Joaquín, el 30 de Noviembre de 2018.</p>
 
     </div>
+
+    <div class="button fix-bottom-padding">
+      <a href="#portion5">Seguir bajando ⇩</a>
+    </div>
+
 
     @include('google-map')
 
@@ -187,12 +222,16 @@
 
     <div id="portion5" class="info">
       <h3>Contáctanos</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni incidunt quos iste voluptates, tenetur ad repudiandae ea fuga eveniet quam, unde iure suscipit rem odit in, sint nulla itaque? Labore beatae, est voluptatibus saepe rerum illum repudiandae quasi perspiciatis, molestiae quidem fugiat voluptates voluptate neque totam earum enim mollitia iure quod tempora veritatis quam optio. Error odit laudantium eum voluptate.</p>
+      <p>En OneCrowd siempre estamos atentos a consultas, opiniones y sugerencias, por lo que hemos preparado este apartado para que nos envíes tus comentarios! </p>
 
-      <div class="button">
-         <a href="#top">Volver al inicio <img class="expand-icon" src="{{ asset('icon/expand-button-up.png ') }}"></a>
-      </div>
+       <p>onecrowd@gmail.com</p>
+       <p>Síguenos también en nuestras redes sociales!</p>
+       <p>redes</p>
 
+    </div>
+
+    <div class="button">
+      <a href="#top">Volver al inicio ⇧</a>
     </div>
     
     @include('footer.footer')

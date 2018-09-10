@@ -6,12 +6,34 @@
   font-family: lemon-milk-bold;
   src: url(../fonts/LemonMilkbold.otf);
 }
+@font-face {
+  font-family: lemon-milk-light;
+  src: url(../fonts/LemonMilklight.otf);
+}
+@font-face {
+  font-family: kanit-extra-light;
+  src: url(../fonts/kanit.extralight.ttf);
+}
+@font-face {
+  font-family: kanit-light;
+  src: url(../fonts/kanit.light.ttf);
+}
+
+
+
+
+
 body {
   margin: 0;
   padding: 0;
   font-family: "lemon-milk";
   font-size: 20px;
 }
+body p{
+  font-family: "kanit-light";
+  font-size: 18px;
+}
+
 header nav {
   text-align: right;
   background: rgba(255,255,255,0);
@@ -44,6 +66,7 @@ header nav a:hover {
 }
 .active {
   background: rgba(255,255,255,0.2);
+  text-decoration: overline;
 }
 .portion {
   background-image:  url('../image/water_drop.jpg');
@@ -111,18 +134,17 @@ header nav a:hover {
   }
 }
 
-.info {
+.info{
   background: white;
   color: #777;
-  padding: 4% 10%;
+  padding: 4% 21%;
   text-align: center;
 }
-.wide-info{
-  background: white;
-  color: #777;
-  text-align: center;
-  padding-bottom: 2%;
-  padding-top: 5%;
+.info.wide-info{
+  padding: 4% 10%;
+}
+.fix-bottom-padding{
+  padding-bottom: 4%;
 }
 .button {
   text-align: center;
@@ -137,7 +159,7 @@ header nav a:hover {
   word-spacing: .25em;
   font-weight: bold;
   transition: all 0.3s ease-in-out;
-  font-family: "Varela Round";
+  font-family: "kanit-light";
   letter-spacing: 0.2125rem;
 }
 .button a:hover {
@@ -301,9 +323,18 @@ label a {
     max-height: 256px;
   }
 }
+/*
 .user{
   padding: 2%;
   min-width: 210px;
+}
+
+.user .jobs{
+  min-width: 247px;
+}
+*/
+.box{
+  min-width: 250px;
 }
 .sponsor{
   padding: 2% 10%;
@@ -387,79 +418,10 @@ label a {
 .no-margin{
   margin: 0;
 }
-
-/*
-
-.usm-icon{
-  max-width: 300px;
-  max-height: 250px;
-  min-width: 200px;
-}
-.fesw-icon{
-  max-width: 256px;
-  max-height: 256px;
-  min-width: 200px;
-}
-.di-icon{
-  max-width: 310px;
-  max-height: 256px;
-  min-width: 200px;
-}
-.piea-icon{
-  max-width: 256px;
-  max-height: 256px;
-  min-width: 200px;
-}
-
-
------------
-.sponsor{
-  padding: 2% 10%;
-}
-.sponsor.usm-icon{
-  max-width: 20vw;
-  max-height: 250px;
-  min-width: 303px;
-}
-.sponsor.fesw-icon{
-  max-width: 19vw;
-  max-height: 256px;
-  min-width: 258px;
-}
-.sponsor.di-icon{
-  max-width: 24vw;
-  max-height: 256px;
-  min-width: 270px;
-}
-.sponsor.piea-icon{
-  max-width: 256px;
-  max-height: 256px;
-  min-width: 273px;
-}
-.sponsor.one-crowd{
-  max-width: 100px;
-  max-height: 256px;
-  min-width: 100px;
-}
-
-------------------------
-.usm-icon{
-  max-width: 300px;
-  max-height: 250px;
-}
-.fesw-icon{
-  max-width: 19vw;
-  max-height: 256px;
-}
-.di-icon{
-  max-width: 24vw;
-  max-height: 256px;
-}
-.piea-icon{
+.one-crowd{
   max-width: 300px;
   max-height: 256px;
 }
-*/
 
 /*Google Map ------------------*/
 #ez-map{
@@ -504,7 +466,7 @@ label a {
 }
 .fancy-btn a {
   color: white;
-  font-family: "Varela Round";
+  font-family: "kanit-light";
   text-decoration: none;
 }
 .fancy-btn.grey a{

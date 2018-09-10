@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/mystyles.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/flexboxgrid.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/magnific-popup.css') }}">
-    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <script type="text/javascript" src=" {{ asset('js/jquery-3.3.1.js') }} "></script>
@@ -35,7 +35,7 @@
 
 
     <div id="portion1" class="info">
-      <h3>Un Sistema de medición de la calidad del agua y alertas</h3>
+      <h3>Un Sistema para informar la calidad del agua y alertas</h3>
       <p>Aqualert es una aplicación móvil que busca prevenir enfermedades asociadas al material inorgánico en el agua mediante un dispositivo electrónico que busca prevenir riesgos que impliquen consumir o usar agua de alguna fuente, sobre todo en casos de emergencia, cuando ocurre un acontecimiento natural que implique contaminación del líquido.</p>
 
     </div>
@@ -131,7 +131,19 @@
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Alfredo Silva</h4>
                   <h6 class="jobs">Android Developer & Arduino QA</h6>
-                  <p>Linkedin</p>
+                  
+                  <section> <ul id="services">
+
+                  <li>
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/company/colorlib">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </li>
+                  
+                  </ul> </section>
+
                 </div>
               </div>
           </div>
@@ -142,7 +154,18 @@
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Francisco Pérez</h4>
                   <h6 class="jobs">Web & Front-End Developer </h6>
-                  <p>Linkedin</p>
+                  
+                  <section> <ul id="services">
+                  <li>
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/company/colorlib">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </li>
+                  </ul> </section>
+
+
                 </div>
               </div>
           </div>
@@ -153,7 +176,19 @@
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Francisco Alvial</h4>
                   <h6 class="jobs">Project & Marketing Manager</h6>
-                  <p>Linkedin</p>
+                  
+                  <section> <ul id="services">
+
+                  <li>
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/company/colorlib">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </li>
+
+                  </ul> </section>
+
                 </div>
               </div>
           </div>
@@ -172,7 +207,21 @@
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Juan Escalona</h4>
                   <h6 class="jobs">Dev. Ops & Android QA</h6>
-                  <p>Linkedin</p>
+                  
+
+                  <section> <ul id="services">
+
+                  <li>
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/company/colorlib">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </li>
+
+                  </ul> </section>
+
+
                 </div>
               </div>
           </div>
@@ -183,7 +232,20 @@
                   <img class="team-icon" src="{{ asset('image/user.png ') }}">
                   <h4>Sebastián Torrico</h4>
                   <h6 class="jobs">Arduino & Android Developer</h6>
-                  <p>Linkedin</p>
+                  
+                  <section> <ul id="services">
+
+                  <li>
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/company/colorlib">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </div>
+                  </li>
+
+                  </ul> </section>
+
+
                 </div>
               </div>
           </div>
@@ -224,9 +286,10 @@
       <h3>Contáctanos</h3>
       <p>En OneCrowd siempre estamos atentos a consultas, opiniones y sugerencias, por lo que hemos preparado este apartado para que nos envíes tus comentarios! </p>
 
-       <p>onecrowd@gmail.com</p>
-       <p>Síguenos también en nuestras redes sociales!</p>
-       <p>redes</p>
+      <p>onecrowd@gmail.com</p>
+      <p>Síguenos también en nuestras redes sociales!</p>
+       
+      @include('social-networks-buttons')
 
     </div>
 

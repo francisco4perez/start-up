@@ -65,7 +65,7 @@
           <div class="col-xs-12 col-sm-4 col-md-4">
               <div class="box">
                 <div class="explication">
-                  <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
+                  <img class="explication-icon" src="{{ asset('image/usb.png ') }}">
                   <h5>Conectar Dispositivo</h5>
                   <p>Sincroniza el dispositivo con tu     celular de manera muy sencilla, solamente usando      Bluetooth(R).</p>
                 </div>
@@ -85,7 +85,7 @@
           <div class="col-xs-12 col-sm-4 col-md-4">
               <div class="box">
                 <div class="explication">
-                  <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
+                  <img class="explication-icon" src="{{ asset('image/map.png ') }}">
                   <h5>Publicar</h5>
                   <p>En tan solo unos segundos tu medición puede      aparecer en el mapa para informar a la comunidad.</p>
                 </div>
@@ -97,8 +97,23 @@
       </div>
 
 
-      <h4>Red social</h4>
-      <p>No solo podrás publicar tus mediciones, sino que     ademas podrás revisar y puntuar las de otros usuarios e   interactuar con     ellos a través de la aplicación.</p>
+      <h4>Red Social</h4>
+      
+
+
+      <div class="my-container">
+        <div class="row center">
+
+          <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="box">
+                <div class="explication">
+                  <img class="explication-icon" src="{{ asset('image/network.png ') }}">
+                  <p>No solo podrás publicar tus mediciones, sino que     ademas podrás revisar y puntuar las de otros usuarios e   interactuar con     ellos a través de la aplicación.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
 
       
       <div class="button">
@@ -136,7 +151,7 @@
 
                   <li>
                     <div class="linkedin">
-                      <a href="https://www.linkedin.com/company/colorlib">
+                      <a href="https://www.linkedin.com/in/alfredo-silva-celpa-558963160/">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </div>
@@ -158,7 +173,7 @@
                   <section> <ul id="services">
                   <li>
                     <div class="linkedin">
-                      <a href="https://www.linkedin.com/company/colorlib">
+                      <a href="https://www.linkedin.com/in/francisco-perez-344841b3/">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </div>
@@ -181,7 +196,7 @@
 
                   <li>
                     <div class="linkedin">
-                      <a href="https://www.linkedin.com/company/colorlib">
+                      <a href="https://www.linkedin.com/in/francisco-alvial-2194219/">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </div>
@@ -213,7 +228,7 @@
 
                   <li>
                     <div class="linkedin">
-                      <a href="https://www.linkedin.com/company/colorlib">
+                      <a href="https://www.linkedin.com/in/juan-escalona-padilla-124624160/">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </div>
@@ -237,7 +252,7 @@
 
                   <li>
                     <div class="linkedin">
-                      <a href="https://www.linkedin.com/company/colorlib">
+                      <a href="https://www.linkedin.com/in/sebasti%C3%A1n-torrico-d%C3%ADaz-8571a28b/">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                       </a>
                     </div>
@@ -286,7 +301,9 @@
       <h3>Contáctanos</h3>
       <p>En OneCrowd siempre estamos atentos a consultas, opiniones y sugerencias, por lo que hemos preparado este apartado para que nos envíes tus comentarios! </p>
 
-      <p>onecrowd@gmail.com</p>
+      @include('contact-form')
+
+      <p>onecrowd.aqualert@gmail.com</p>
       <p>Síguenos también en nuestras redes sociales!</p>
        
       @include('social-networks-buttons')

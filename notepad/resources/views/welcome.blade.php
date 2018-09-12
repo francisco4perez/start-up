@@ -41,7 +41,7 @@
     </div>
 
     <div class="button fix-bottom-padding">
-      <a href="#portion2">Seguir bajando ⇩</a>
+      <a href="#portion2">Como Funciona?</a>
     </div>
 
     
@@ -55,69 +55,77 @@
       <h3>¿Cómo funciona?</h3>
       <p>Para poder realizar las mediciones se utiliza el dispositivo Aqualert, que consta de cuatro sensores diferentes, que indican el estado del agua en pocos minutos y que en conjunto con la aplicación móvil permiten localizar puntos de alerta.</p>
 
-      <h4>Fácil de usar</h4>
-      
-      
-
-      <div class="my-container">
-        <div class="row center">
-
-          <div class="col-xs-12 col-sm-4 col-md-4">
-              <div class="box">
-                <div class="explication">
-                  <img class="explication-icon" src="{{ asset('image/usb.png ') }}">
-                  <h5>Conectar Dispositivo</h5>
-                  <p>Sincroniza el dispositivo con tu     celular de manera muy sencilla, solamente usando      Bluetooth(R).</p>
-                </div>
-              </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-4 col-md-4">
-              <div class="box">
-                <div class="explication">
-                  <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
-                  <h5>Realiza una medición</h5>
-                  <p>La aplicación te guiará paso a       paso para que puedas tomar una medición sin ningún      problema.</p>
-                </div>
-              </div>
-          </div>
-
-          <div class="col-xs-12 col-sm-4 col-md-4">
-              <div class="box">
-                <div class="explication">
-                  <img class="explication-icon" src="{{ asset('image/map.png ') }}">
-                  <h5>Publicar</h5>
-                  <p>En tan solo unos segundos tu medición puede      aparecer en el mapa para informar a la comunidad.</p>
-                </div>
-              </div>
-          </div>
-
-        </div>
+      <div class="explication-div">
         
+        
+        <h4>Fácil de usar</h4>
+
+        <div class="my-container">
+          <div class="row center">
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="box">
+                  <div class="explication">
+                    <img class="explication-icon" src="{{ asset('image/usb.png ') }}">
+                    <h5>1. Conecta el Dispositivo</h5>
+                    <p>Sincroniza el dispositivo con tu     celular de manera muy sencilla, solamente usando      Bluetooth®.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="box">
+                  <div class="explication">
+                    <img class="explication-icon" src="{{ asset('image/save-water.png ') }}">
+                    <h5>2. Realiza una medición</h5>
+                    <p>La aplicación te guiará paso a       paso para que puedas tomar una medición sin ningún      problema.</p>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="box">
+                  <div class="explication">
+                    <img class="explication-icon" src="{{ asset('image/map.png ') }}">
+                    <h5>3. Publica tu medición</h5>
+                    <p>En tan solo unos segundos tu medición puede      aparecer en el mapa para informar a la comunidad.</p>
+                  </div>
+                </div>
+            </div>
+
+          </div>
+          
+        </div>
+
+
       </div>
 
-
-      <h4>Red Social</h4>
       
+      <div class="explication-div">
+        
+        <h4>Red Social</h4>
 
+        <div class="my-container">
+          <div class="row center">
 
-      <div class="my-container">
-        <div class="row center">
-
-          <div class="col-xs-12 col-sm-12 col-md-12">
-              <div class="box">
-                <div class="explication">
-                  <img class="explication-icon" src="{{ asset('image/network.png ') }}">
-                  <p>No solo podrás publicar tus mediciones, sino que     ademas podrás revisar y puntuar las de otros usuarios e   interactuar con     ellos a través de la aplicación.</p>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="box">
+                  <div class="explication">
+                    <img class="explication-icon" src="{{ asset('image/network.png ') }}">
+                    <p>No solo podrás publicar tus mediciones, sino que     ademas podrás revisar y puntuar las de otros usuarios e   interactuar con     ellos a través de la aplicación.</p>
+                  </div>
                 </div>
-              </div>
+            </div>
           </div>
         </div>
+
       </div>
+
+      
 
       
       <div class="button">
-         <a href="#portion3">Seguir bajando ⇩</a>
+         <a href="#portion3">Nuestro Equipo</a>
       </div>
 
     </div>
@@ -270,7 +278,7 @@
       </div>
 
       <div class="button">
-         <a href="#portion4">Seguir bajando ⇩</a>
+         <a href="#portion4">Visítenos!</a>
       </div>
 
     </div>
@@ -287,7 +295,7 @@
     </div>
 
     <div class="button fix-bottom-padding">
-      <a href="#portion5">Seguir bajando ⇩</a>
+      <a href="#portion5">Contáctanos!</a>
     </div>
 
 

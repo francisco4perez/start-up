@@ -94,6 +94,14 @@ $( document ).ready(function() {
       fixedContentPos: true
   });
 
+  // Fake input for textarea ------------------------
+
+  var $fake = $("#fake");
+  $fake.val( "Deja Aquí tus comentarios!" );
+
+  $("#textarea").keyup(function() {
+      $fake.val( this.value );
+  });
 
 
 });

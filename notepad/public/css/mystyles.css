@@ -113,7 +113,7 @@ header nav a:hover {
   width: 100%;
 }
 .my-section.two {
-  background-image:  url('../image/aqualert-wallpaper.jpg');
+  background-image:  url('../image/hands.jpg');
 }
 .my-section.three {
   background-image:  url('../image/utfsm.jpg');
@@ -139,7 +139,6 @@ header nav a:hover {
     font-size: 3em;
   }
 }
-
 .info{
   background: white;
   color: #777;
@@ -152,9 +151,11 @@ header nav a:hover {
 .fix-bottom-padding{
   padding-bottom: 4%;
 }
+.explication-div{
+  padding-top: 4%;
+}
 #telephone-input::-webkit-outer-spin-button,
 #telephone-input::-webkit-inner-spin-button {
-    /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
     margin: 0;
 }
@@ -178,20 +179,20 @@ header nav a:hover {
 }
 .button a, .button input {
   display: inline-block;
-  border: 2px solid #777;
+  border: 2px solid rgb(0,164,231);
   padding: .75em 1.5em;
-  color: #777;
+  color: rgb(0,164,231);
+  background-color: white;
   text-decoration: none;
   text-transform: uppercase;
   word-spacing: .25em;
   font-weight: bold;
   transition: all 0.3s ease-in-out;
-  font-family: "kanit-light";
   letter-spacing: 0.2125rem;
 }
 .button a:hover, .button input:hover {
-  color: #FFFAF0;
-  background: #777;
+  color: white;
+  background-color: rgb(0,164,231);
 }
 footer.info {
   color: rgb(45,99,253);

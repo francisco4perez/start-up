@@ -159,14 +159,14 @@ header nav a:hover {
     -webkit-appearance: none;
     margin: 0;
 }
-#contact-textarea{
+#textarea{
   min-width: 272px;
   max-width: 550px;
   max-height: 200px;
   min-height: 50px;
 }
-@media screen and (max-width: 962px) and (min-width: 962px) {
-  #contact-textarea {
+@media screen and (max-width: 962px) and (min-width: 272px) {
+  #textarea {
     max-width: 272px;
   }
 }

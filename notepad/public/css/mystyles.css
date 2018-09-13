@@ -26,6 +26,13 @@
   font-family: kanit-light-italic;
   src: url(../fonts/kanit.light-italic.ttf);
 }
+@font-face {
+  font-family: closeness-bold-italic;
+  src: url(../fonts/closeness.bold-italic.ttf);
+}
+
+
+
 
 
 body {
@@ -88,13 +95,13 @@ header nav a:hover {
 .portion h2 {
   color: white;
   font-weight: normal;
-  font-size: 8vw;
+  font-size: 8.6vw;
   margin: 0;
-  font-family: "kanit-light-italic";
+  font-family: "closeness-bold-italic";
 }
 @media screen and (min-width: 600px) {
   .portion h2 {
-    font-size: 3.5em;
+    font-size: 3.2em;
   }
 }
 .filter{
@@ -494,7 +501,7 @@ label a {
 }
 .fancy-btn a {
   color: white;
-  font-family: "kanit-light";
+  font-family: "closeness-bold-italic";
   text-decoration: none;
 }
 .fancy-btn.grey a{

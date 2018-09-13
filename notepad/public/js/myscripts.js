@@ -77,12 +77,8 @@ $( document ).ready(function() {
       }
     });
   // My title button -------------------------------
-  const body = document.body;
-  const btn = document.querySelectorAll('.fancy-btn')[0];
-
-  btn.addEventListener('mouseenter', () => { body.classList.add('show'); });
-  btn.addEventListener('mouseleave', () => { body.classList.remove('show');
-  });
+  var body = document.body;
+  var btn = document.querySelectorAll('.fancy-btn')[0];
 
   // My video presentation -------------------------
 

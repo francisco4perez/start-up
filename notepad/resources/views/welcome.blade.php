@@ -23,7 +23,7 @@
           <h2>Sistema de alertas para tu agua</h2>
 
           <div id="div-btn">
-            <div class="popup-youtube fancy-btn" href="https://www.youtube.com/watch?v=Rzv5a8viDAw">
+            <div class="popup-youtube fancy-btn" href="https://www.youtube.com/watch?v=8vUKISjqjtE">
               <a>Ver&nbsp;Video&nbsp;<span class="shift">›</span></a>
               <div class="mask"></div>
             </div>
@@ -315,6 +315,9 @@
       <p>Síguenos también en nuestras redes sociales!</p>
        
       @include('social-networks-buttons')
+
+      <p>Contador de Visitas</p>
+      <a><img src="https://www.reliablecounter.com/count.php?page=aqualert.feriadesoftware.cl&digit=style/plain/31/&reloads=0" alt="script hit counter code" title="script hit counter code" border="0"></a>
 
     </div>
 

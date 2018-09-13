@@ -120,7 +120,7 @@ header nav a:hover {
   width: 100%;
 }
 .my-section.two {
-  background-image:  url('../image/hands.jpg');
+  background-image:  url('../image/team.png');
 }
 .my-section.three {
   background-image:  url('../image/utfsm.jpg');
@@ -345,12 +345,13 @@ label a {
   justify-content: center;
 }
 .explication-icon{
-  max-width: 128px;
-  max-height: 128px;
+  max-width: 158px;
+  max-height: 158px;
 }
 .team-icon{
-  max-width: 128px;
-  max-height: 128px;
+  max-width: 150px;
+  max-height: 150px;
+  -webkit-border-radius: 200px 200px 200px 200px;
 }
 @media screen and (max-width: 767px) {
   .team-icon {
@@ -358,16 +359,6 @@ label a {
     max-height: 256px;
   }
 }
-/*
-.user{
-  padding: 2%;
-  min-width: 210px;
-}
-
-.user .jobs{
-  min-width: 247px;
-}
-*/
 .box{
   min-width: 250px;
 }
@@ -632,12 +623,6 @@ section #services li span {
 
 /* Inputs styles ---------------------------------*/
 
-/*
-=====
-LEVEL 1. RESET STYLES
-=====
-*/
-
 .field{
   --uiFieldPlaceholderColor: var(--fieldPlaceholderColor, #777);
 }
@@ -653,48 +638,24 @@ LEVEL 1. RESET STYLES
   font-family: "kanit-extra-light";
   font-size: 1em;
 }
-
 .a-field .field__input:focus{
   outline: none;
 }
-
 .field__input:focus::-webkit-input-placeholder{
   color: var(--uiFieldPlaceholderColor);
 }
-
 .field__input:focus::-moz-placeholder{
   color: var(--uiFieldPlaceholderColor);
   opacity: 1;
 }
-
-/*
-=====
-LEVEL 2. CORE STYLES
-=====
-*/
-
 .field{
   display: inline-block;
 }
-
 .field__input{ 
   display: block;
   box-sizing: border-box;
   width: 100%;
-}/*
-.field__input#message-input{
-  height: 150px;
 }
-*/
-
-/*
-=====
-LEVEL 3. PRESENTATION STYLES
-=====
-*/
-
-/* a-field */
-
 .a-field{
   --uiFieldHeight: var(--fieldHeight, 40px);  
   --uiFieldBorderWidth: var(--fieldBorderWidth, 2px);
@@ -829,25 +790,15 @@ LEVEL 3. PRESENTATION STYLES
   will-change: opacity, height;
   transition: height .2s ease-out, opacity .2s ease-out;
 }
-
 .a-field_a3 .field__input:focus ~ .field__label-wrap:after{
   height: 100%;
   opacity: 1;
 }
-
 .a-field_a3 .field__input:focus ~ .field__label-wrap .field__label{
   bottom: calc(var(--uiFieldHeight) + .5em);
 }
-
-/*
-=====
-LEVEL 4. SETTINGS
-=====
-*/
-
 .field{
   --fieldBorderColor: #777;
   --fieldBorderColorActive: rgb(0,164,231);
   margin-top: 40px;
 }
-

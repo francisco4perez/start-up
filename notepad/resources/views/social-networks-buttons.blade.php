@@ -19,7 +19,7 @@
 
       <li>
         <div class="twitter">
-          <a href="https://twitter.com/Aqualert1">
+          <a href="https://twitter.com/Aqualert2">
             <i class="fa fa-twitter" aria-hidden="true"></i>
           </a>
         </div>

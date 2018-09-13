@@ -11,7 +11,7 @@
     
     <script type="text/javascript" src=" {{ asset('js/jquery-3.3.1.js') }} "></script>
     <script type="text/javascript" src=" {{ asset('js/magnific-popup.min.js') }} "></script>
-    <script type="text/javascript" src=" {{ asset('js/myscripts.js') }} "></script>
+    <script type="text/javascript" src=" {{ asset('js/myscripts.min.js') }} "></script>
 </head>
 <body id="top">
 
@@ -151,7 +151,7 @@
           <div class="col-xs-12 col-sm-4 col-md-4">
               <div class="box">
                 <div class="user">
-                  <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                  <img class="team-icon" src="{{ asset('image/alphy.png ') }}">
                   <h4>Alfredo Silva</h4>
                   <h6 class="jobs">Android Developer & Arduino QA</h6>
                   
@@ -174,7 +174,7 @@
           <div class="col-xs-12 col-sm-4 col-md-4">
               <div class="box">
                 <div class="user">
-                  <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                  <img class="team-icon" src="{{ asset('image/goku.png ') }}">
                   <h4>Francisco Pérez</h4>
                   <h6 class="jobs">Web & Front-End Developer </h6>
                   
@@ -196,7 +196,7 @@
           <div class="col-xs-12 col-sm-4 col-md-4">
               <div class="box">
                 <div class="user">
-                  <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                  <img class="team-icon" src="{{ asset('image/oso.png ') }}">
                   <h4>Francisco Alvial</h4>
                   <h6 class="jobs">Project & Marketing Manager</h6>
                   
@@ -227,7 +227,7 @@
           <div class="col-xs-12 col-sm-6 col-md-6">
               <div class="box">
                 <div class="user">
-                  <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                  <img class="team-icon" src="{{ asset('image/juan.png ') }}">
                   <h4>Juan Escalona</h4>
                   <h6 class="jobs">Dev. Ops & Android QA</h6>
                   
@@ -252,7 +252,7 @@
           <div class="col-xs-12 col-sm-6 col-md-6">
               <div class="box">
                 <div class="user">
-                  <img class="team-icon" src="{{ asset('image/user.png ') }}">
+                  <img class="team-icon" src="{{ asset('image/seba.png ') }}">
                   <h4>Sebastián Torrico</h4>
                   <h6 class="jobs">Arduino & Android Developer</h6>
                   

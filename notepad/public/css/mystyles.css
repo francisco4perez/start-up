@@ -167,7 +167,7 @@ header nav a:hover {
     margin: 0;
 }
 #textarea{
-  min-width: 272px;
+  min-width: 250px;
   max-width: 550px;
   max-height: 200px;
   min-height: 50px;

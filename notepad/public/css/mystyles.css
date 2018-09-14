@@ -365,6 +365,11 @@ label a {
 .sponsor{
   padding: 2% 10%;
 }
+.sponsor.soon-icon{
+  max-width: 246px;
+  max-height: 256px;
+  margin-bottom: 20%;
+}
 .sponsor.usm-icon{
   max-width: 300px;
   max-height: 256px;

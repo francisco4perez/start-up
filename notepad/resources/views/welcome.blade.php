@@ -316,9 +316,20 @@
        
       @include('social-networks-buttons')
 
-      <p>Contador de Visitas</p>
-      <a><img src="https://www.reliablecounter.com/count.php?page=aqualert.feriadesoftware.cl&digit=style/plain/31/&reloads=0" alt="script hit counter code" title="script hit counter code" border="0"></a>
+    </div>
 
+    <div class="my-container">
+        <div class="row center">
+
+          <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="box">
+                <div>
+                  <img class="sponsor soon-icon" src="{{ asset('image/soon-in-google-play.png ') }}">
+                </div>
+              </div>
+          </div>
+
+        </div>
     </div>
 
     <div class="button">

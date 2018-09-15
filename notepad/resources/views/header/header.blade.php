@@ -14,7 +14,7 @@
 	    <span class='hamburger'></span>
 	  </span>
 	  <ul>
-	    <li><a href='#portion1'>Inicio</a></li>
+	    <li><a href='#top'>Inicio</a></li>
 	    <li><a href='#portion2'>Aqualert</a></li>
 	    <li><a href='#portion3'>Nosotros</a></li>
 	    <li><a href='#portion4'>Visítenos</a></li>

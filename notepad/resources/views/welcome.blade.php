@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125850809-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-125850809-1');
+    </script>
+
     <title>Aqualert!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/mystyles.css') }}">
@@ -13,11 +21,11 @@
     <script type="text/javascript" src=" {{ asset('js/magnific-popup.min.js') }} "></script>
     <script type="text/javascript" src=" {{ asset('js/myscripts.min.js') }} "></script>
 </head>
-<body id="top">
+<body>
 
     @include('header.header')
 
-    <div class="portion">
+    <div class="portion" id="portion1">
       <div class="filter">
         <div id="title">
           <h2>Sistema de alertas para tu agua</h2>
@@ -34,7 +42,7 @@
     </div>
 
 
-    <div id="portion1" class="info">
+    <div  class="info">
       <h3>Un Sistema para informar la calidad del agua y alertas</h3>
       <p>Aqualert es una aplicación móvil que busca prevenir enfermedades asociadas al material inorgánico en el agua mediante un dispositivo electrónico que busca prevenir riesgos que impliquen consumir o usar agua de alguna fuente, sobre todo en casos de emergencia, cuando ocurre un acontecimiento natural que implique contaminación del líquido.</p>
 
@@ -122,7 +130,6 @@
       </div>
 
       
-
       
       <div class="button">
          <a href="#portion3">Nuestro Equipo</a>
@@ -152,7 +159,7 @@
               <div class="box">
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/alphy.png ') }}">
-                  <h4>Alfredo Silva</h4>
+                  <h4>Alfredo Silva<br>Celpa</h4>
                   <h6 class="jobs">Android Developer & Arduino QA</h6>
                   
                   <section> <ul id="services">
@@ -175,7 +182,7 @@
               <div class="box">
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/goku.png ') }}">
-                  <h4>Francisco Pérez</h4>
+                  <h4>Francisco Pérez<br>Castro</h4>
                   <h6 class="jobs">Web & Front-End Developer </h6>
                   
                   <section> <ul id="services">
@@ -197,7 +204,7 @@
               <div class="box">
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/oso.png ') }}">
-                  <h4>Francisco Alvial</h4>
+                  <h4>Francisco Alvial<br>Fuentes</h4>
                   <h6 class="jobs">Project & Marketing Manager</h6>
                   
                   <section> <ul id="services">
@@ -228,7 +235,7 @@
               <div class="box">
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/juan.png ') }}">
-                  <h4>Juan Escalona</h4>
+                  <h4>Juan Escalona<br>Padilla</h4>
                   <h6 class="jobs">Dev. Ops & Android QA</h6>
                   
 
@@ -253,7 +260,7 @@
               <div class="box">
                 <div class="user">
                   <img class="team-icon" src="{{ asset('image/seba.png ') }}">
-                  <h4>Sebastián Torrico</h4>
+                  <h4>Sebastián Torrico<br>Díaz</h4>
                   <h6 class="jobs">Arduino & Android Developer</h6>
                   
                   <section> <ul id="services">
@@ -288,7 +295,7 @@
     </div>
 
     <div id="portion4" class="info">
-      <h3>Visítenos</h3>
+      <h3>Los estamos esperando!</h3>
       <p>Visítanos en la feria del software de la Universidad Técnica Federico Santa María
       En Campus Santiago, San Joaquín, el 30 de Noviembre de 2018.</p>
 
@@ -306,7 +313,7 @@
     </div>
 
     <div id="portion5" class="info">
-      <h3>Contáctanos</h3>
+      <h3>Queremos saber tu opinión!</h3>
       <p>En OneCrowd siempre estamos atentos a consultas, opiniones y sugerencias, por lo que hemos preparado este apartado para que nos envíes tus comentarios! </p>
 
       @include('contact-form')
@@ -333,7 +340,7 @@
     </div>
 
     <div class="button">
-      <a href="#top">Volver al inicio ⇧</a>
+      <a href="#portion1">Volver al inicio ⇧</a>
     </div>
     
     @include('footer.footer')

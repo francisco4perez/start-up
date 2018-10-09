@@ -45,7 +45,6 @@ body p{
   font-family: "kanit-light";
   font-size: 18px;
 }
-
 header nav {
   text-align: right;
   background: rgba(255,255,255,0);
@@ -55,22 +54,28 @@ header nav {
   width: 100%;
   z-index: 5;
 }
+header nav#small{
+  background: #1B374A;
+  -webkit-transition: all .3s ease-in;
+  height: 60px;
+}
 header nav a {
   color: inherit;
   text-decoration: none;
   display: inline-block;
-  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 1);
   padding: 1.5em 1em 0.6em;
   -webkit-transition: all .3s ease-in;
 }
 @media screen and (max-width: 1000px) {
-  header nav a{
+  header nav a:not(#aqualert_logo){
     display: none;
   }
 }
 .small {
   padding: 1.5em 1em 0em;
   font-size: 0.9em;
+  height: 33px;
 }
 header nav a:hover {
   text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.9);
@@ -79,6 +84,7 @@ header nav a:hover {
 .active {
   background: rgba(255,255,255,0.2);
   text-decoration: overline;
+  height: 33px;
 }
 .portion {
   background-image:  url('../image/water_drop.jpg');
@@ -104,6 +110,11 @@ header nav a:hover {
     font-size: 3.2em;
   }
 }
+@media screen and (max-width: 600px) {
+  .portion h2 {
+    padding: 2em 0;
+  }
+}
 .filter{
   padding: 4.5em 0;
   text-shadow: 0 0 10px black;
@@ -116,7 +127,7 @@ header nav a:hover {
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
-  height: -webkit-fill-available;
+  height: 400px;
   width: 100%;
 }
 .my-section.two {
@@ -135,7 +146,7 @@ header nav a:hover {
   color: white;
   font-weight: normal;
   font-size: 10vw;
-  padding: 4.5em 0;
+  padding: 2.6em 0;
   margin: 0;
   text-shadow: 0 0 10px black;
   background: rgba(0,0,0,0.5);
@@ -146,6 +157,14 @@ header nav a:hover {
     font-size: 3em;
   }
 }
+@media screen and (max-width: 600px) {
+  .my-section h2 {
+    padding: 3.7em 0;
+  }
+}
+
+
+
 .info{
   background: white;
   color: #777;
@@ -213,7 +232,7 @@ footer.info {
 #toTop img:hover {
   cursor: pointer;
 }
-nav img {
+nav a img {
   z-index: 1000;
   height: 2.5em;
   position: absolute;
@@ -244,8 +263,9 @@ label .menu {
   z-index: 100;
   width: 200px;
   height: 200px;
-  background: rgb(0,164,231);
+  background: #1B374A;
   border-radius: 50% 50% 50% 50%;
+  border: outset;
   transition: .5s ease-in-out;
   box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
   cursor: pointer;
@@ -262,7 +282,7 @@ label .hamburger {
   left: 50px;
   width: 30px;
   height: 2px;
-  background: #000;
+  background: rgb(0,164,231);
   display: block;
   -webkit-transform-origin: center;
           transform-origin: center;
@@ -275,7 +295,7 @@ label .hamburger:after, label .hamburger:before {
   display: block;
   width: 100%;
   height: 100%;
-  background: #000;
+  background: rgb(0,164,231);
 }
 label .hamburger:before {
   top: -10px;
@@ -289,20 +309,25 @@ label input {
 label input:checked + .menu {
   box-shadow: 0 0 0 100vw rgb(0,164,231), 0 0 0 100vh rgb(0,164,231);
   border-radius: 0;
+  background: rgb(0,164,231);
+  border: none;
 }
 label input:checked + .menu .hamburger {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+  background: #1B374A;
 }
 label input:checked + .menu .hamburger:after {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   bottom: 0;
+  background: #1B374A;
 }
 label input:checked + .menu .hamburger:before {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   top: 0;
+  background: #1B374A;
 }
 label input:checked + .menu + ul {
   opacity: 1;
